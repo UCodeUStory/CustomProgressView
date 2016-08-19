@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:progressView="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.example.qiyue.customprogress.MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="测试对话框"
+        android:id="@+id/btn_button"
+        android:layout_height="wrap_content" />
+
+    <com.example.qiyue.customprogress.ProgressView
+        android:layout_width="100dp"
+        progressView:barWidth="10dp"
+        progressView:speed="3"
+        android:layout_height="100dp" />
+</LinearLayout>
